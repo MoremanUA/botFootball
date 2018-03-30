@@ -4,13 +4,14 @@ chardet==3.0.4
 conda==4.3.16
 future==0.16.0
 get==0.0.39
+idna==2.6
 macholib==1.9
 pefile==2017.11.5
 post==0.0.26
 public==0.0.65
+PyInstaller==3.3.1
+PyMySQL==0.8.0
 query-string==0.0.28
 request==0.0.26
 requests==2.18.4
 urllib3==1.22
-pypiwin32==223
-pywin32==223
