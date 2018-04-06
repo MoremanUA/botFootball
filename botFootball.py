@@ -119,6 +119,6 @@ def main():
 if __name__ == '__main__':
     try:
         #main()
-        app.run()
+        app.run(host='0.0.0.0')
     except KeyboardInterrupt:
         exit()
