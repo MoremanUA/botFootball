@@ -1,1 +1,1 @@
-web: gunicorn botFootball:app
+web: gunicorn botFootball:app --log-file=-
