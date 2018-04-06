@@ -1,1 +1,1 @@
-worker: gunicorn botFootball:app
+web: gunicorn botFootball:app
