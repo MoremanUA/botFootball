@@ -1,1 +1,1 @@
-worker: python -u botFootball.py
+web: gunicorn botFootball:app 
