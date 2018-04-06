@@ -1,1 +1,1 @@
-web: gunicorn botFootball:app 
+web: python botFootball.py
