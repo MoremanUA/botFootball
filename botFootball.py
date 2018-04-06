@@ -1,5 +1,7 @@
-import requests, datetime 
-import sys, re
+import datetime, sys, re, requests
+from flask import Flask
+
+app = Flask(__name__)
 
 class BotHandler:
     def __init__(self):
@@ -83,7 +85,9 @@ class BotHandler:
         else:
             return False
             
-        
+@app.route('/')
+def index():
+    return '<h1>Hellou world</h1>'
 
 def main():
     greet_bot = BotHandler()
@@ -113,7 +117,8 @@ def main():
                 new_offset = last_update_id + 1
                 
 if __name__ == '__main__':
-        try:
-            main()
-        except KeyboardInterrupt:
-            exit()
+    try:
+        #main()
+        app.run()
+    except KeyboardInterrupt:
+        exit()
