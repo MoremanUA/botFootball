@@ -117,8 +117,4 @@ def main():
                 new_offset = last_update_id + 1
                 
 if __name__ == '__main__':
-    try:
-        #main()
-        #app.run(host="0.0.0.0")
-    except KeyboardInterrupt:
-        exit()
+   app.run(host="0.0.0.0")
