@@ -1,1 +1,1 @@
-web: gunicorn botFootball:app --log-file=-
+worker: python -u botFootball.py
